@@ -1,12 +1,14 @@
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.Scanner;
 
-    public class Questions {
+public class Questions {
 
         private ArrayList<Question> questions;
+        private Question randomQuestion;
+
 
         public Questions() {
+
             questions = new ArrayList<Question>();
 
 
@@ -17,9 +19,16 @@ import java.util.Scanner;
 
 
             }
+
+   /* public void RandomQuetion(){
+
+
+            randomQuestion=new Question();
+
+            Random randIndex = new Random();
+            int numberOfQuestion = randIndex.nextInt(questions.size());
+            randomQuestion = questions.get(numberOfQuestion);
+            return randomQuestion;
         }
-        Random randomGenerator = new Random();
-        int index = randomGenerator.nextInt(questions.size());
-        Question question = questions.get(index);
-    //}
+  */
 }
