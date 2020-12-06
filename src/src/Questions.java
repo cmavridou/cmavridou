@@ -3,11 +3,6 @@ import java.util.Random;
 
     public class Questions {
 
-        /*List<Question> questions = <"Τι χρώμα έχουν οι φράουλες?",
-                "Πότε γιορτάζουμε την ελληνική επανάσταση?",
-                "Ο Καραθεοδωρής ήταν" >;
-
-         */
         private ArrayList<Question> questions;
 
         public Questions() {
